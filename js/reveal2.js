@@ -514,8 +514,6 @@ var Reveal = (function(){
 				var node = nodes[i];
 
 				if( node.textContent && !node.querySelector( 'img' ) && ( !node.className || !node.classList.contains( node, 'roll' ) ) ) {
-					node.classList.add( 'roll' );
-					node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
 				}
 			}
 		}

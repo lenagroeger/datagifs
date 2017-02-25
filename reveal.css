@@ -28,6 +28,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #cecece
 }
 
 a:hover {
@@ -38,8 +39,8 @@ a:hover {
 
 
 img {
-  margin: 30px 0px 0px 0px;
-  max-height: 550px;
+  margin: 0px;
+  max-height: 600px;
   max-width: 100%
 }
 
@@ -67,6 +68,9 @@ p.subhead {
   margin-top: 10px
 }
 
+p.source {
+  font-size: 12px
+}
 
 .state-background {
   position: absolute;
