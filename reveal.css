@@ -36,7 +36,9 @@ a:hover {
   color:#cecece;
 }
 
-
+.list {
+  text-align: left;
+}
 
 img {
   margin: 0px;
@@ -50,6 +52,7 @@ img {
   font-weight: 400;
   font-size: 30px;
   letter-spacing: .04em;
+  -webkit-font-smoothing: antialiased;
 }
 
 p.bio {
